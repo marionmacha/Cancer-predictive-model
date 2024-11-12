@@ -1,4 +1,6 @@
 # Cancer-predictive-model
+<img src="assets/prostate-cancer.png" alt="Prostate-Cancer" width="1000" height="500"/>
+
 This project aims to develop a predictive model to assess cancer risk based on various health, dietary, and demographic factors. We use a structured process to clean, preprocess, and model the data, applying advanced machine learning techniques, including transformers for feature extraction, to improve prediction accuracy.
 
 Table of Contents

@@ -14,12 +14,17 @@ Kelvin Letimalo
 Zacharia Komu
 
 
+
 PROJECT OVERVIEW
 
 
 This project aims to develop a predictive model to assess cancer risk based on various health, dietary, and demographic factors. We use a structured process to clean, preprocess, and model the data, applying advanced machine learning techniques, including transformers for feature extraction, to improve prediction accuracy.
 
+
+
+
 Table of Contents
+
 
 Business Understanding
 
@@ -32,6 +37,9 @@ Data Preparation
 Exploratory Data Analysis
 
 Modeling and Evaluation
+
+
+
 
 Business Understanding
 
@@ -54,7 +62,11 @@ Business Understanding
 
 **In essence, our project is addressing a significant healthcare challenge by developing a predictive model that can lead to more effective and personalized prostate cancer management.**
 
+
+
+
 Problem Statement
+
 
 
 Prostate cancer is one of the most common cancers affecting men worldwide, with more new cases reported annually. Despite advancements in screening techniques such as the Prostate-Specific Antigen (PSA) test, the current methods of diagnosing prostate cancer are limited in their predictive accuracy. These traditional methods rely heavily on a few factors such as age, family history, and PSA levels, which do not capture the full spectrum of potential risk indicators. This leads to two major issues:
@@ -66,6 +78,9 @@ Current methods might fail to identify high-risk individuals, leading to delayed
 Unnecessary Biopsies and Overdiagnosis:
 
 On the other hand, reliance on limited factors can result in overdiagnosis, leading to unnecessary biopsies and treatments. These invasive procedures can cause anxiety, unnecessary costs, and sometimes even harm to patients, especially when the risks of cancer are overestimated.
+
+
+
 
 
 Data Preparation
@@ -104,6 +119,9 @@ The four selected GSE datasets are:
 2. • GSE46602
 3. • GSE7307
 4. • GSE69223
+
+
+
 
 ##Preprocessing:
 The selected datasets were categorized into three groups based on the "Gillison"

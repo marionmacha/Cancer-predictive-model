@@ -6,8 +6,11 @@ TEAM MEMBERS
 
 
 Marion Macharia
+
 Wilson Mutungu
+
 Kelvin Letimalo
+
 Zacharia Komu
 
 
@@ -15,54 +18,123 @@ PROJECT OVERVIEW
 
 
 This project aims to develop a predictive model to assess cancer risk based on various health, dietary, and demographic factors. We use a structured process to clean, preprocess, and model the data, applying advanced machine learning techniques, including transformers for feature extraction, to improve prediction accuracy.
-**This project tackles the critical issue of early and accurate prostate cancer risk prediction. Prostate cancer is a significant health concern, being one of the most common cancers in men. Early detection is crucial for successful treatment and improved patient outcomes.**
-
-**Currently, prostate cancer risk assessment often relies on limited factors like age, family history, and PSA levels. However, these methods may not always provide a comprehensive risk profile, leading to potential missed diagnoses or unnecessary biopsies.**
-
-**Our project addresses this problem by:**
-**This project tackles the critical issue of early and accurate prostate cancer risk prediction. Prostate cancer is a significant health concern, being one of the most common cancers in men. Early detection is crucial for successful treatment and improved patient outcomes.**
-
-**Currently, prostate cancer risk assessment often relies on limited factors like age, family history, and PSA levels. However, these methods may not always provide a comprehensive risk profile, leading to potential missed diagnoses or unnecessary biopsies.**
-
-**Our project addresses this problem by:**
-
-    Leveraging a broader range of factors: By incorporating health, dietary, and demographic data, your model aims to build a more complete picture of individual risk.
-    Employing advanced machine learning: Using these techniques allows for the identification of complex patterns and relationships within the data, leading to more accurate predictions.
-    Improving prediction accuracy: Enhanced accuracy translates to better-informed decisions about screening, diagnosis, and treatment.
-
-**The business impact of our project includes:**
-
-    Improved early detection: Leading to timely intervention and improved patient survival rates.
-    Reduced healthcare costs: By avoiding unnecessary procedures and optimizing resource allocation.
-    Personalized risk assessment: Empowering individuals to make informed decisions about their health.
-    Advancements in prostate cancer research: Providing valuable insights into the factors influencing risk.
-
-**In essence, our project is addressing a significant healthcare challenge by developing a predictive model that can lead to more effective and personalized prostate cancer management.**
-
-    Leveraging a broader range of factors: By incorporating health, dietary, and demographic data, your model aims to build a more complete picture of individual risk.
-    Employing advanced machine learning: Using these techniques allows for the identification of complex patterns and relationships within the data, leading to more accurate predictions.
-    Improving prediction accuracy: Enhanced accuracy translates to better-informed decisions about screening, diagnosis, and treatment.
-
-**The business impact of our project includes:**
-
-    Improved early detection: Leading to timely intervention and improved patient survival rates.
-    Reduced healthcare costs: By avoiding unnecessary procedures and optimizing resource allocation.
-    Personalized risk assessment: Empowering individuals to make informed decisions about their health.
-    Advancements in prostate cancer research: Providing valuable insights into the factors influencing risk.
-
-**In essence, our project is addressing a significant healthcare challenge by developing a predictive model that can lead to more effective and personalized prostate cancer management.**
 
 Table of Contents
-Project Description
-Data Description
-Installation
-Usage
-Analysis & Visualizations
-Results
-Contributing
-License
-Project Description
-This analysis uses dietary records and cancer-related literature to examine possible links between nutrient intake and cancer. Using machine learning models, statistical tests, and visualizations, the project aims to identify dietary factors that may correlate with cancer risk or serve as protective elements against cancer development.
+
+Business Understanding
+
+Problem Statement
+
+Data Understanding
+
+Data Preparation
+
+Exploratory Data Analysis
+
+Modeling and Evaluation
+
+Business Understanding
+
+**This project tackles the critical issue of early and accurate prostate cancer risk prediction. Prostate cancer is a significant health concern, being one of the most common cancers in men. Early detection is crucial for successful treatment and improved patient outcomes.**
+
+**Currently, prostate cancer risk assessment often relies on limited factors like age, family history, and PSA levels. However, these methods may not always provide a comprehensive risk profile, leading to potential missed diagnoses or unnecessary biopsies.**
+
+**Our project addresses this problem by:**
+
+    Leveraging a broader range of factors: By incorporating health, dietary, and demographic data, your model aims to build a more complete picture of individual risk.
+    Employing advanced machine learning: Using these techniques allows for the identification of complex patterns and relationships within the data, leading to more accurate predictions.
+    Improving prediction accuracy: Enhanced accuracy translates to better-informed decisions about screening, diagnosis, and treatment.
+
+**The business impact of our project includes:**
+
+    Improved early detection: Leading to timely intervention and improved patient survival rates.
+    Reduced healthcare costs: By avoiding unnecessary procedures and optimizing resource allocation.
+    Personalized risk assessment: Empowering individuals to make informed decisions about their health.
+    Advancements in prostate cancer research: Providing valuable insights into the factors influencing risk.
+
+**In essence, our project is addressing a significant healthcare challenge by developing a predictive model that can lead to more effective and personalized prostate cancer management.**
+
+Problem Statement
+
+
+Prostate cancer is one of the most common cancers affecting men worldwide, with more new cases reported annually. Despite advancements in screening techniques such as the Prostate-Specific Antigen (PSA) test, the current methods of diagnosing prostate cancer are limited in their predictive accuracy. These traditional methods rely heavily on a few factors such as age, family history, and PSA levels, which do not capture the full spectrum of potential risk indicators. This leads to two major issues:
+
+ Missed Early Diagnoses:
+ 
+Current methods might fail to identify high-risk individuals, leading to delayed diagnosis and missed opportunities for early intervention. Without early detection, patients may not receive timely treatment, which can severely impact survival rates and quality of life.
+
+Unnecessary Biopsies and Overdiagnosis:
+
+On the other hand, reliance on limited factors can result in overdiagnosis, leading to unnecessary biopsies and treatments. These invasive procedures can cause anxiety, unnecessary costs, and sometimes even harm to patients, especially when the risks of cancer are overestimated.
+
+
+Data Preparation
+
+We have 2 datasets for this project:
+
+1.Data Sources:
+
+○ Health record datasets: MIMIC-III, NHANES.
+
+○ Genetic data: 1000 Genomes Project, HapMap.
+
+○ Prostate - cancer - Genomics from SEER
+
+2.## Prostate_Cancer_Genomics_DSLanders
+
+**This dataset is a carefully curated compilation of genomic data related to prostate cancer,
+created by merging four GEO Series (GSE) datasets from the NCBI database.**
+
+**The selection process involved identifying datasets associated with three specific GPL
+platforms (GPL570, GPL96, and GPL571) to ensure compatibility and consistency acrossthe data.**
+
+**The final dataset provides a comprehensive resource for analyzing gene
+expression and genomic variations across different prostate cancer conditions.**
+
+Initially, several GSE datasets with different GPL platforms were downloaded from the
+NCBI database. After an in-depth analysis, it was determined that GPL570, GPL96, and
+GPL571 platforms share significant overlap. Therefore, datasets corresponding to these
+three platforms were selected for further analysis. The raw data for each GSE was
+downloaded from the NCBI GEO database
+
+https://www.google.com/url?q=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fgeo%2Fquery%2Facc.cgi. If a dataset lacked raw data, it was
+excluded from the selection.
+The four selected GSE datasets are:
+1. • GSE32448
+2. • GSE46602
+3. • GSE7307
+4. • GSE69223
+
+##Preprocessing:
+The selected datasets were categorized into three groups based on the "Gillison"
+classification:
+
+1. Normal
+2. Benign
+3. Tumor
+
+Subsequently, the quality of the data was assessed using the MetaQC package in R. The
+results confirmed that these four datasets were of the highest quality and suitable for
+further analysis.
+##Column Descriptions:
+>**• First Row (GSE Names):** The first row contains the names of the GEO Series (GSE)
+datasets from which the data were sourced. Each column corresponds to a specific GSE,
+indicating the origin of the sample data.
+
+>**• Second Row (GSM Identifiers):** The second row includes the GEO Sample (GSM)
+identifiers, which are unique identifiers for each sample within the GSE datasets. These
+identifiers help trace back each sample to its original source in the NCBI GEO database.
+
+>**• Gillison Classification (Parameter after ):** The numbers following the underscore ()
+
+in the second row represent the Gillison classification of each sample. This classification
+categorizes the samples into three groups based on their clinical status:
+
+1: Normal
+
+2: Benign
+
+3: Tumor
 
 Data Description
 Primary dataset used:

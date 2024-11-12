@@ -45,6 +45,7 @@ Modeling and Evaluation
 
 Business Understanding
 
+
 **This project tackles the critical issue of early and accurate prostate cancer risk prediction. Prostate cancer is a significant health concern, being one of the most common cancers in men. Early detection is crucial for successful treatment and improved patient outcomes.**
 
 **Currently, prostate cancer risk assessment often relies on limited factors like age, family history, and PSA levels. However, these methods may not always provide a comprehensive risk profile, leading to potential missed diagnoses or unnecessary biopsies.**
@@ -85,11 +86,11 @@ On the other hand, reliance on limited factors can result in overdiagnosis, lead
 
 
 
-
 Data Preparation
 
 
 We have 2 datasets for this project:
+
 
 1.Data Sources:
 
@@ -99,7 +100,8 @@ We have 2 datasets for this project:
 
 ○ Prostate - cancer - Genomics from SEER
 
-2.## Prostate_Cancer_Genomics_DSLanders
+
+2.Prostate_Cancer_Genomics_DSLanders
 
 **This dataset is a carefully curated compilation of genomic data related to prostate cancer,
 created by merging four GEO Series (GSE) datasets from the NCBI database.**

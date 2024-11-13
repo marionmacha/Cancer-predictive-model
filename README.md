@@ -2,7 +2,7 @@
 <img src="https://github.com/user-attachments/assets/450675c3-a520-468c-9c9d-50f77750eb2c" alt="Prostate-Cancer" width="1200" height="600"/>
 
 
-Team Members
+# Team Members
 
 
 
@@ -17,7 +17,7 @@ Zacharia Komu
 
 
 
-PROJECT OVERVIEW
+# PROJECT OVERVIEW
 
 
 
@@ -26,7 +26,7 @@ This project aims to develop a predictive model to assess cancer risk based on v
 
 
 
-Table of Contents
+# Table of Contents
 
 
 
@@ -45,7 +45,7 @@ Modeling and Evaluation
 
 
 
-Business Understanding
+# Business Understanding
 
 
 **This project tackles the critical issue of early and accurate prostate cancer risk prediction. Prostate cancer is a significant health concern, being one of the most common cancers in men. Early detection is crucial for successful treatment and improved patient outcomes.**
@@ -71,7 +71,7 @@ Business Understanding
 
 
 
-Problem Statement
+# Problem Statement
 
 
 Prostate cancer is one of the most common cancers affecting men worldwide, with more new cases reported annually. Despite advancements in screening techniques such as the Prostate-Specific Antigen (PSA) test, the current methods of diagnosing prostate cancer are limited in their predictive accuracy. These traditional methods rely heavily on a few factors such as age, family history, and PSA levels, which do not capture the full spectrum of potential risk indicators. This leads to two major issues:
@@ -88,7 +88,7 @@ On the other hand, reliance on limited factors can result in overdiagnosis, lead
 
 
 
-Data Preparation
+# Data Preparation
 
 
 We have 2 datasets for this project:

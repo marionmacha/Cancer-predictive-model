@@ -133,6 +133,9 @@ Checking for missing values
 
 ![EDA](https://github.com/user-attachments/assets/69d9a2f5-5d5a-4ada-b77a-e0331ecf54d2)
 
+The descriptive statistics have been generated successfully, providing insights into the central tendency, dispersion, and shape of the dataset's distribution. This information will help us understand the data better and identify any potential outliers or trends.
+
+
 
 Contributing
 Contributions are welcome! If you would like to contribute, please submit a pull request or reach out to the project maintainer.

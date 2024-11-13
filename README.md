@@ -135,6 +135,10 @@ Checking for missing values
 
 The descriptive statistics have been generated successfully, providing insights into the central tendency, dispersion, and shape of the dataset's distribution. This information will help us understand the data better and identify any potential outliers or trends.
 
+## correlation matrix of key numerical features
+![Correlation](https://github.com/user-attachments/assets/735a6a50-4356-4c9f-bf9e-a411d7c42ab7)
+
+
 
 
 Contributing
